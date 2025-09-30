@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: whitesmoke;
 }
 
 .us-none {
@@ -34,11 +33,7 @@
 .w-100 {
 
   width: 100%;
-}
-
-.border_black {
-
-  border: 2px solid black;
+  background-color: whitesmoke;
 }
 
 .cstm_flex {
@@ -54,6 +49,21 @@
 .flex_a-center {
 
   align-items: center;
+}
+
+.flex_j-space-between {
+
+  justify-content: space-between;
+}
+
+.flex_d-col {
+
+  flex-direction: column;
+}
+
+.flex_d-row {
+
+  flex-direction: row;
 }
 
 .container_cstm {

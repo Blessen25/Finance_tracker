@@ -7,7 +7,7 @@ const MainContainer:React.FC<MaincontainerProps> = (Props) => {
 
         <>
         <div className={`w-100 cstm_flex flex_j-center flex_a-center ${Props.mainClass}`}>
-            <div className={`container_cstm padding_cstm border_black ${Props.containerClass}`}>
+            <div className={`container_cstm padding_cstm ${Props.containerClass}`}>
                 {Props.children}
             </div>
         </div>
