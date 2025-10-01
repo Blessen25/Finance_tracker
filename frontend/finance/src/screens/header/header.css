@@ -20,9 +20,11 @@
 
 .headerdetailsdiv {
 
-    width: 650px;
+    width: 550px;
+    font-weight: 500;
 }
 
 .headeraccountdiv {
 
+  font-weight: 500;
 }

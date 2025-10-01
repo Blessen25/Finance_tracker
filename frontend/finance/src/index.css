@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .us-none {
@@ -119,6 +120,50 @@
 .h1-extra-small {
 
   font-size: 18px;
+}
+
+.fo-200 {
+
+  font-weight: 200;
+}
+
+.fo-100 {
+
+  font-weight: 100;
+}
+
+.fo-300 {
+
+  font-weight: 300;
+}
+
+.fo-400 {
+
+  font-weight: 400;
+}
+
+.fo-500 {
+
+  font-weight: 500;
+}
+.fo-600 {
+
+  font-weight: 600;
+}
+
+.fo-700 {
+
+  font-weight: 700;
+}
+
+.fo-800 {
+
+  font-weight: 800;
+}
+
+.fo-900 {
+
+  font-weight: 900;
 }
 
 
