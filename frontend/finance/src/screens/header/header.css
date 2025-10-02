@@ -24,7 +24,21 @@
     font-weight: 500;
 }
 
+.headerdetailsdiv a {
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
 .headeraccountdiv {
 
   font-weight: 500;
+}
+
+.headeraccountdiv a{
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
