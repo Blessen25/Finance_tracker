@@ -67,6 +67,16 @@
   flex-direction: row;
 }
 
+.flex_d-col-rev {
+
+  flex-direction: column-reverse !important;
+}
+
+.flex_d-row-rev {
+
+  flex-direction: row-reverse !important; 
+}
+
 .container_cstm {
 
   width: 1320px;

@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
 import MainContainer from "../../component/main_container";
-import { Button_Text, Button_Text_Icon } from "../../component/button_comp";
+import { Button_Text_Icon } from "../../component/button_comp";
 import { FaPlus } from "react-icons/fa";
 
 export const Header = () => {

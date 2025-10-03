@@ -30,3 +30,20 @@ export const Button_Text_Icon:React.FC<ButtontextProps> = (Props) => {
         </>
     )
 }
+
+export const Button_Text_IconRev:React.FC<ButtontextProps> = (Props) => {
+
+    return (
+
+        <>
+
+            <a href="#" className={`buttoncstm buttoncstmflex flex_d-row-rev ${Props.classname}`} onClick={Props.onClick}>
+                {Props.icon && <>
+                    {Props.icon}
+                </>
+                }
+                <span>{Props.text}</span>
+            </a>
+        </>
+    )
+}
