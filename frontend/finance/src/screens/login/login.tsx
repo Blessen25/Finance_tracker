@@ -6,7 +6,7 @@ const Login = () => {
     return (
 
         <>
-            <p>sadasdsad</p>
+            <p style={{color:"red"}}>sadasdsad</p>
             <h1>asdsadsakjsdka</h1>
         </>
     )
