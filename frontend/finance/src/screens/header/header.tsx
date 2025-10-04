@@ -19,15 +19,15 @@ export const Header = () => {
                             <h1>Logo</h1>
                         </div>
                         <div className="headerdetailsdiv cstm_flex flex_j-space-between flex_a-center gap_cstm fo-400 p-normal us-none">
-                            <a href="#">Home</a>
-                            <a href="#">Features</a>
-                            <a href="#">About</a>
-                            <a href="#">Discover</a>
-                            <a href="#">Support</a>
+                            <a href="#" className="p-normal">Home</a>
+                            <a href="#" className="p-normal">Features</a>
+                            <a href="#" className="p-normal">About</a>
+                            <a href="#" className="p-normal">Discover</a>
+                            <a href="#" className="p-normal">Support</a>
 
                         </div>
                         <div className="headeraccountdiv cstm_flex flex_j-space-between flex_a-center gap_cstm p-normal us-none">
-                            <a href="#">Register</a>
+                            <a href="#" className="p-normal">Register</a>
                             <Button_Text_Icon text="Login" icon={<FaPlus/>}/>
                         </div>
 

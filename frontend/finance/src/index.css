@@ -85,21 +85,26 @@
 .p-normal {
 
   font-size: 16px;
+  font-weight: 500;
 }
 
 .p-medium {
 
   font-size: 14px;
+  font-weight: 500;
 }
 
 .p-small {
 
   font-size: 12px;
+  font-weight: 500;
 }
 
 .p-extra-small {
 
   font-size: 10px;
+  font-weight: 500;
+
 }
 
 .h1-extra-big {
