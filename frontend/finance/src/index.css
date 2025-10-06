@@ -110,31 +110,42 @@
 .h1-extra-big {
 
   font-size: 42px;
+  font-size: 700;
 }
 
 .h1-big {
 
   font-size: 36px;
+  font-size: 700;
 }
 
 .h1-normal {
 
   font-size: 30px;
+  font-size: 700;
 }
 
 .h1-medium {
 
   font-size: 26px;
+  font-size: 700;
 }
 
 .h1-small {
 
   font-size: 22px;
+  font-size: 700;
 }
 
 .h1-extra-small {
 
   font-size: 18px;
+  font-size: 700;
+}
+
+.color-danger {
+
+  color: red;
 }
 
 .fo-200 {
@@ -195,6 +206,10 @@
     padding: 0px !important;
 }
 
+.w-500px {
+
+  width: 500px;
+}
 
 @media screen and (max-width : 1399px) {
   
