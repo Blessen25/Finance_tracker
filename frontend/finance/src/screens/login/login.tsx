@@ -1,13 +1,26 @@
 import React from "react";
 import './login.css';
+import { Header } from "../header/header";
+import MainContainer from "../../component/main_container";
 
 const Login = () => {
 
     return (
 
         <>
-            <p style={{color:"red"}}>sadasdsad</p>
-            <h1>asdsadsakjsdka</h1>
+            <Header />
+            <MainContainer 
+            mainClass="loginmaincontainer"
+            children = {
+
+                <>
+
+                    <div className="loginparent cstm_flex flex_j-center  gap_cstm">
+                        <h1>asdsad</h1>
+                    </div>
+                </>
+            }
+            />
         </>
     )
 }

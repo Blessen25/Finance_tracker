@@ -1,0 +1,11 @@
+.loginparent {
+
+    user-select: none;
+    height: 76vh;
+}
+
+.loginmaincontainer {
+
+    margin-top: 1px;
+    padding: 50px;
+}
