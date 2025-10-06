@@ -7,6 +7,7 @@ export interface MaincontainerProps {
 
 export interface ButtontextProps {
 
+    route ?: string;
     text ?: string;
     classname ?: string;
     icon ?: React.ReactNode;

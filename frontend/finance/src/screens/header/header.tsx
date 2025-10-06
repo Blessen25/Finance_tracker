@@ -27,8 +27,8 @@ export const Header = () => {
 
                         </div>
                         <div className="headeraccountdiv cstm_flex flex_j-space-between flex_a-center gap_cstm p-normal us-none">
-                            <a href="#" className="p-normal">Register</a>
-                            <Button_Text_Icon text="Login" icon={<FaPlus/>}/>
+                            <a href="/register" className="p-normal">Register</a>
+                            <Button_Text_Icon text="Login" icon={<FaPlus/>} route="/login"/>
                         </div>
 
                     </div>

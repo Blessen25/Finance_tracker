@@ -8,7 +8,7 @@ export const Button_Text:React.FC<ButtontextProps> = (Props) => {
 
         <>
         
-            <a href="#" className={`buttoncstm p-medium ${Props.classname}`} onClick={Props.onClick}>{Props.text}</a>
+            <a href={`${Props.route ? Props.route : '#'}`} className={`buttoncstm p-medium ${Props.classname}`} onClick={Props.onClick}>{Props.text}</a>
         </>
     )
 }
@@ -20,7 +20,7 @@ export const Button_Text_Icon:React.FC<ButtontextProps> = (Props) => {
 
         <>
 
-            <a href="#" className={`buttoncstm buttoncstmflex ${Props.classname}`} onClick={Props.onClick}>
+            <a href={`${Props.route ? Props.route : '#'}`} className={`buttoncstm buttoncstmflex ${Props.classname}`} onClick={Props.onClick}>
                 {Props.icon && <>
                     {Props.icon}
                 </>
@@ -37,7 +37,7 @@ export const Button_Text_IconRev:React.FC<ButtontextProps> = (Props) => {
 
         <>
 
-            <a href="#" className={`buttoncstm buttoncstmflex flex_d-row-rev ${Props.classname}`} onClick={Props.onClick}>
+            <a href={`${Props.route ? Props.route : '#'}`} className={`buttoncstm buttoncstmflex flex_d-row-rev ${Props.classname}`} onClick={Props.onClick}>
                 {Props.icon && <>
                     {Props.icon}
                 </>
